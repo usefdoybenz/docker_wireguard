@@ -10,7 +10,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - SERVERURL=1.1.1.1 #add here the ip of the host server of your vpn
+      - SERVERURL= wireguard.domain.com #add here the public ip or host server url 
       - SERVERPORT=51820
       - PEERS=4 #you can reduce or increase the number of licenses, it can be accessed by QR code
       - PEERDNS=auto #optional
